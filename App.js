@@ -6,7 +6,7 @@ const bcrypt=require("bcryptjs")
 const jwt = require("jsonwebtoken")
 const cors = require('cors');
 app.use(cors());
-const url = "mongodb://localhost:27017/Mern";
+const url = "mongodb+srv://elavarasanr2023it:alwlhTZlbiW6nXQT@cluster0.eqz5z.mongodb.net/TuneSphere";
 port = 8001;
 mongoose
     .connect(url)
